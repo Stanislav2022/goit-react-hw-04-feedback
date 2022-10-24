@@ -38,13 +38,6 @@ export default function FeedbackWidget() {
             default:
                 break;
         }
-
-        this.setState((prevState) => {
-            const value = prevState[propertyName];
-            return {
-                [propertyName]: value + 1
-            }
-      })  
     }
 
     const total = countTotal()

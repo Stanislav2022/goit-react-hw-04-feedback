@@ -5,7 +5,7 @@ export default function FeedbackOptions({options,onLeaveFeedback}) {
     <div>
         {options.map(option => {
         return (
-          <button type="button" key={option}        onClick={() => {
+          <button type="button" key={option} onClick={() => {
               onLeaveFeedback(option);
             }}>
             {option}
